@@ -28,7 +28,16 @@ div:visited {
     height:50px;
 }
 
+div.relative {
+    position:relative;
+    left:30px;
+    border: 3px solid red;
+}
+
 div.fixed {
-    position:fixed
-    
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid blue;
 }
