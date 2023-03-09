@@ -27,3 +27,8 @@ div:visited {
     width:100px;
     height:50px;
 }
+
+div.fixed {
+    position:fixed
+    
+}

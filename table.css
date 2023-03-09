@@ -2,3 +2,14 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+div {
+    background-color: aqua;
+    width:100px;
+    height:20px;
+}
+
+div:hover {
+    background-color: aquamarine;
+    
+}
