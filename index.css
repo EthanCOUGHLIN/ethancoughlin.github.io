@@ -28,8 +28,8 @@ div:visited {
     height:50px;
 }
 
-div.static {
-    position:static;
-    border:3px solid black;
+div.relative {
+    position:relative;
+    left:30px;
+    border: 3px solid red;
 }
-
