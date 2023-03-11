@@ -28,11 +28,10 @@ div:visited {
     height:50px;
 }
 
-div.absolute {
-    position: absolute;
-    top:80px;
-    right:0;
-    width:200px;
-    height:100px;
-    border:3px solid black; 
+div.fixed {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid blue;
 }
