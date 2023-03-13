@@ -1,8 +1,8 @@
 h1 {
-    color: bisque;
+    color: lightgray;
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    text-align: center;
 }
 
 body {
@@ -10,31 +10,24 @@ body {
 }
 
 p {
-    color:white
+    color:lightgrey;
 }
 
 div{
-    background-color:aqua;
     width:100px;
     height:50px;
 }
 
 div:hover {
-    background-color: aquamarine;
+    background-color: red;
     width:105px;
     height:55px;
-}
-
-div:visited {
-    background-color: blue;
-    width:100px;
-    height:50px;
 }
 
 div.sticky {
     position: -webkit-sticky; /*safari*/
     position: sticky;
-    top: 0;
+    top: 50;
     background-color: green;
     border: 3px solid blue;
 }
