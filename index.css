@@ -28,30 +28,6 @@ div:visited {
     height:50px;
 }
 
-div.static {
-    position:static;
-    border:3px solid black;
-}
-div.relative {
-    position:relative;
-    left:30px;
-    border: 3px solid red;
-}
-div.absolute {
-    position: absolute;
-    top:80px;
-    right:0;
-    width:200px;
-    height:100px;
-    border:3px solid black; 
-}
-div.fixed {
-    position:fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    border: 3px solid blue;
-}
 div.sticky {
     position: -webkit-sticky; /*safari*/
     position: sticky;
