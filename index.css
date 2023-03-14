@@ -13,22 +13,36 @@ p {
     color:lightgrey;
 }
 
+.retrogamefacts {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+
+}
+
 div{
-    width:100px;
-    height:50px;
+    width:210px;
+    height:40px;
 }
 
 div:hover {
     background-color: red;
-    width:105px;
-    height:55px;
+    width:210px;
+    height:40px;
+}
+
+div.sticky2 {
+    position: sticky;
+    top: 100px;
+    background-color: black;
+    border: 2px solid red;
 }
 
 div.sticky {
     position: -webkit-sticky; /*safari*/
     position: sticky;
     top: 50px;
-    background-color: green;
-    border: 3px solid blue;
+    background-color: black;
+    border: 2px solid red;
 }
 
