@@ -13,6 +13,26 @@ table, th, td {
     background-color: green;
 }
 
+.vcda {
+    background-color: lightblue
+}
+
+.levelb {
+    background-color: brown;
+}
+
+.compgama {
+    background-color: orange;
+}
+
+.engesse {
+    background-color: blue;
+}
+
+.blank {
+    background-color: black;
+}
+
 div {
     background-color: aqua;
     width:100px;
