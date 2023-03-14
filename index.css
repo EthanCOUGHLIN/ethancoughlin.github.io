@@ -27,7 +27,7 @@ div:hover {
 div.sticky {
     position: -webkit-sticky; /*safari*/
     position: sticky;
-    top: 50;
+    top: 50px;
     background-color: green;
     border: 3px solid blue;
 }

@@ -1,6 +1,16 @@
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+.computa {
+    background-color: purple;
+
+}
+
+.asdfghjkl {
+    background-color: green;
 }
 
 div {
@@ -12,4 +22,12 @@ div {
 div:hover {
     background-color: aquamarine;
     
+}
+
+a {
+    text-decoration: none;
+}
+
+a.hover {
+    text-decoration: underline;
 }
