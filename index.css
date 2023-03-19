@@ -14,18 +14,16 @@ p {
 }
 
 .retrogamefacts {
-    position: sticky;
-    top: 0px;
     background-color: black;
-
+    height: 90px;
 }
 
-div{
+.sticky, .sticky2{
     width:210px;
     height:40px;
 }
 
-div:hover {
+.sticky:hover, .sticky2:hover{
     background-color: red;
     width:210px;
     height:40px;
@@ -46,6 +44,27 @@ div.sticky {
     border: 2px solid red;
 }
 
-#NES {
-    text-decoration: none;
+li a {
+    display:block;
+    width:1500px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: goldenrod;
+    color:silver;
+}
+
+#banner {
+    position: sticky;
+    top: 0px;
+    width: 100%;
 }
