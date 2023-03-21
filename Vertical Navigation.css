@@ -1,0 +1,58 @@
+h1 {
+    color: lightgray;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: (href="")
+}
+
+p {
+    color:lightgrey;
+}
+
+.retrogamefacts {
+    position: sticky;
+    background-color: black;
+    height: 100px;
+}
+
+li a {
+    display:block;
+    width: 500px;
+    height:40px;
+    border-collapse: 3px solid black;
+    border-color: black;
+    padding: 10px 30px;
+    font-size:30px;
+    text-decoration: none;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: red;
+    color:lightblue;
+}
+
+#banner {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+#SNES {
+    position:sticky;
+    top: 90px;
+}
