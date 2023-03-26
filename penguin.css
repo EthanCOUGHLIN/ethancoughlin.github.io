@@ -1,0 +1,52 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #ff7c00;
+}
+
+.penguin {
+    position: static;
+    background-color: #1d2c4f;
+    height: 90px;
+}
+
+li {
+    position: sticky;
+    display: inline;
+    background-color: #1d2c4f;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    background-color: #1d2c4f;
+}
+
+li a {
+    display: block;
+    color: #ff7c00;
+    text-align: left;
+    padding: 14px, 16px;
+    text-decoration: none;
+}
+
+
+/*Change the link color to #131d33 on hover*/
+li a.hover {
+    background-color: #131d33;
+}

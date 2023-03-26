@@ -5,6 +5,13 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-color: black;
+}
+
+div.hover {
+    transform: rotate(20deg);
+}
 
 p {
     color:lightgrey;
@@ -18,7 +25,7 @@ p {
 
 li a {
     display:block;
-    width: 500px;
+    width: 700px;
     height:40px;
     border-collapse: 3px solid black;
     border-color: black;
@@ -53,3 +60,4 @@ li a:hover {
     position:sticky;
     top: 90px;
 }
+
