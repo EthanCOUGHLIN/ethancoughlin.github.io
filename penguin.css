@@ -26,8 +26,9 @@ li {
 
 ul {
     list-style-type: none;
+    background-color: #1d2c4f;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     overflow: hidden;
 }
 
@@ -53,4 +54,10 @@ li a {
 /*Change the link color to #131d33 on hover*/
 li a.hover {
     background-color: #131d33;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px, 10px;
 }
