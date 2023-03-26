@@ -57,8 +57,8 @@ li a.hover {
 }
 
 table, th, td {
+    align-self: center;
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px, 10px;
-    text-align: center;
 }
