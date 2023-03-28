@@ -26,6 +26,7 @@ div.hover {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    color: #ff7c00;
 }
 
 li {
@@ -66,10 +67,18 @@ li a.hover {
     background-color: #131d33;
 }
 
+.gallery {
+    position: static;
+    background-color: #1d2c4f;
+    height: 90px;
+}
+
 table, th, td {
-    border: 1px solid black;
+    color: #ff7c00;
+    border: 1px solid whitesmoke;
+    background-color: #1d2c4f;
     border-collapse: collapse;
-    padding: 5px, 10px;
+    padding: 10px;
 }
 
 table {
