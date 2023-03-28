@@ -71,3 +71,7 @@ table, th, td {
     border-collapse: collapse;
     padding: 5px, 10px;
 }
+
+table {
+    margin:auto;
+}
