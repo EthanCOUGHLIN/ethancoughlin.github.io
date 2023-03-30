@@ -19,24 +19,6 @@ p {
     height: 90px;
 }
 
-.sticky, .sticky2{
-    width:210px;
-    height:40px;
-}
-
-.sticky:hover, .sticky2:hover{
-    background-color: red;
-    width:210px;
-    height:40px;
-}
-
-div.sticky2 {
-    position: sticky;
-    top: 100px;
-    background-color: black;
-    border: 2px solid red;
-}
-
 div.sticky {
     position: -webkit-sticky; /*safari*/
     position: sticky;
@@ -45,17 +27,28 @@ div.sticky {
     border: 2px solid red;
 }
 
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    background-color: black;
+}
+
 li a {
     display:block;
-    width:1500px;
+    text-align: left;
     background-color: black;
+    padding: 14px, 16px;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    width: 60px;
+    padding: 10px;
+    overflow: hidden;
 }
 
 /* Change the link color on hover */
