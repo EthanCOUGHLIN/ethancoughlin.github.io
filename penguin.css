@@ -84,3 +84,7 @@ table, th, td {
 table {
     margin:auto;
 }
+
+.a {
+    text-decoration: none;
+}
