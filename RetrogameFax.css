@@ -34,6 +34,8 @@ a {
     display: block;
     padding: 20px;
     background-color: black;
+    text-decoration: none;
+    color: red;
 }
 
 li a {
@@ -53,7 +55,7 @@ ul {
 /* Change the link color on hover */
 li a:hover {
     background-color: red;
-    color:ligh;
+    color:lightgray;
 }
 
 #banner {
