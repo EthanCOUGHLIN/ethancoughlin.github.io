@@ -13,8 +13,9 @@ div.hover {
     transform: rotate(20deg);
 }
 
-p {
-    color:lightgrey;
+li {
+    color:red;
+    font-size: 45px;
 }
 
 .retrogamefacts {
@@ -25,15 +26,14 @@ p {
 
 li a {
     display:block;
-    width: 700px;
+    width: 200px;
     height:40px;
     border-collapse: 3px solid black;
     border-color: black;
     padding: 10px 30px;
-    font-size:30px;
+    font-size:20px;
     text-decoration: none;
-    color:white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
 }
 
 ul {
@@ -54,10 +54,5 @@ li a:hover {
     top: 0px;
     width: 100%;
     background-color: black;
-}
-
-#SNES {
-    position:sticky;
-    top: 90px;
 }
 
