@@ -9,10 +9,6 @@ body {
     background-color: black;
 }
 
-div.hover {
-    transform: rotate(20deg);
-}
-
 li {
     color:red;
     font-size: 45px;
@@ -29,7 +25,6 @@ li a {
     width: 200px;
     height:40px;
     border-collapse: 3px solid black;
-    border-color: black;
     padding: 10px 30px;
     font-size:20px;
     text-decoration: none;
@@ -38,9 +33,10 @@ li a {
 
 ul {
     list-style-type: none;
+    background-color: black;
     margin: 0;
     padding: 0;
-    width: 60px;
+    width: 200px;
 }
 
 /* Change the link color on hover */

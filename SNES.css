@@ -27,6 +27,7 @@ li a {
 }
 
 ul {
+    position: sticky;
     list-style-type: none;
     background-color: black;
     margin: 0;
