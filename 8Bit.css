@@ -9,15 +9,13 @@ body {
     background-color: black;
 }
 
+p {
+    color: lightgray;
+}
+
 li {
     color:red;
     font-size: 45px;
-}
-
-.retrogamefacts {
-    position: sticky;
-    background-color: black;
-    height: 100px;
 }
 
 li a {
@@ -43,6 +41,7 @@ ul {
 li a:hover {
     background-color: red;
     color:lightblue;
+    border-radius: 25px;
 }
 
 #banner {
@@ -52,3 +51,44 @@ li a:hover {
     background-color: black;
 }
 
+.gbb:hover {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.nine:hover {
+    transform: rotate(135deg);
+    color: white;
+    background-color: red;
+}
+
+.o:hover {
+    transform: translate(25px,50px);
+    color: white;
+    background-color: red;
+}
+
+.one:hover {
+    transform: scale(1.5, 2);
+    color: white;
+    background-color: red;
+}
+
+.two {
+    transform: skewX(15deg);
+}
+
+.two:hover {
+    transform: skewY(40deg);
+    color: white;
+    background-color: red;
+}
+
+#three {
+    transform: rotateX(90deg);
+}
+
+.three:hover {
+    transform: rotateY(225deg);
+    color: white;
+    background-color: red;
+}
