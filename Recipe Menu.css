@@ -7,5 +7,22 @@ body {
     background-color: goldenrod;
 }
 
+li {
+    float: left;
+}
 
+li a {
+    color: lightblue;
+    background-color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    
+}
 
