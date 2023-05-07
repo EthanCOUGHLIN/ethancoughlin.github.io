@@ -118,3 +118,11 @@ ul {
     animation-fill-mode: forwards;
 }
 
+.ps a:hover {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    transition: 1s;
+    transition-timing-function: ease;   
+}
