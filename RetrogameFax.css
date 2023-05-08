@@ -60,6 +60,7 @@ li a:hover {
 
 #banner {
     position: sticky;
+    background-color: black;
     top: 0px;
     width: 100%;
 }
