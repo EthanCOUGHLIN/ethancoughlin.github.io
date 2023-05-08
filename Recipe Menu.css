@@ -1,6 +1,15 @@
 h1 {
-    color:white;
-    font-family: magneto;
+    color:lightblue;
+    background-color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 25px;
+}
+
+#banner {
+    position: sticky;
+    background-color: white;
+    padding: 25px;
 }
 
 body {
@@ -17,12 +26,20 @@ li a {
     display: block;
     padding: 20px;
     text-decoration: none;
+    font-size: 25px;
 }
 
 ul {
+    border-collapse: 3px solid white;
     list-style-type: none;
     margin: 0;
     padding: 10px;
-    
+    overflow: hidden;
+}
+
+li a:hover {
+    transition: 1s;
+    color: white;
+    background-color: lightblue;
 }
 
