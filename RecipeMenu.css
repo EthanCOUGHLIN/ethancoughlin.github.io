@@ -79,7 +79,10 @@ li a:hover {
     transition-timing-function: ease;
 }
 
+/* Create three equal columns that float nest to each other */
 .column {
     float: left;
     width: 33.33%;
 }
+
+/*  */
