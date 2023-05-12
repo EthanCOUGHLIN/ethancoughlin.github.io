@@ -1,0 +1,44 @@
+h1 {
+    color:lightcoral;
+    background-color: darkred;
+    text-align: center;
+    font-size: 45px;
+    padding: 25px;
+}
+
+#banner {
+    position: sticky;
+    background-color: rgb(247, 87, 87);
+    padding: 25px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: lightcoral;
+    background-color: darkred;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+ul {
+    border-collapse: 3px solid rgb(229, 190, 48);
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li a:hover {
+    transition: 1s;
+    color: rgb(209, 90, 50);
+    background-color: rgb(229, 167, 23);
+}
