@@ -32,6 +32,7 @@ body {
     background-color: white;
     color: red;
     transition: 1s;
+    border-radius: 25px;
 }
 
 /* Create three equal columns that float next to each other */
