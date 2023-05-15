@@ -14,7 +14,7 @@ body {
     overflow: hidden;
     background-color: black;
     font-size: 20px;
-    padding: 20px;
+    padding: 38px;
 }
 
 /* Navbar links */
@@ -37,6 +37,7 @@ body {
 /* Create three equal columns that float next to each other */
 .column {
     float: left;
+    color: white;
     width: 33.33%;
 }
 
