@@ -1,0 +1,66 @@
+.header {
+    color: lightgray;
+    text-align: center;
+    font-size: 45px;
+}
+
+body {
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-collapse: 3px, solid black;
+    border-color: black;
+    padding: 10px, 30px;
+    color: red;
+    text-align: center;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: red;
+    color:white;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+ul {
+    position: sticky;
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: red;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: lightblue;
+    transition: 1s;
+    transition-timing-function: ease;
+}

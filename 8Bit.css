@@ -1,7 +1,6 @@
 h1 {
     color: lightgray;
     font-size: 45px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 
@@ -40,7 +39,7 @@ ul {
 /* Change the link color on hover */
 li a:hover {
     background-color: red;
-    color:lightblue;
+    color:white;
     border-radius: 25px;
 }
 
