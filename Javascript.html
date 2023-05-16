@@ -4,21 +4,15 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylsheet" href="JavaScript.css">
+<link rel="stylesheet" href="JavaScript.css">
 <title>JavaScript</title>
 </head>
 <body>
-    <h1 style="font-family: magneto;" class="java">JavaScript</h1>
-    <button onclick="document.getElementById('myDiv').style.display='none';">Disappear</button><br>
-    <button onclick="document.getElementById('myDiv').style.display='block';">reappear</button><br>
-    <div style="background-color: darkred; width: 200px; height: 200px;" id="myDiv"></div>
-    <button onclick="newFunction"()>click</button>
-
-    <script>
-        function newFunction() {
-            var x = document.getElementById('myDiv');
-            console.log(window)
-        }
-    </script>
+    <button onclick="Disappear()">Disappear</button><br>
+    <button onclick="Reappear()">reappear</button><br>
+    <div id="myDiv"></div>
+    <button onclick="click()">click</button><br>
+    <div id="myDiv2">1994</div>
+ <script src="script.js"></script>
 </body>
 </html>

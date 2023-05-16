@@ -1,9 +1,9 @@
-.java {
-    font-size: 45px;
-    text-align: center;
-    color: lightblue;
+#myDiv {
+    background-color: red;
+    width: 200px;
+    height: 150px;
 }
 
-body {
-    background-color: goldenrod;
+#myDiv2 {
+    color: darkred;
 }
