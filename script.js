@@ -16,9 +16,8 @@ function click() {
 }
 
 function myName() {
-    var x = 5;
-    var y = 6;
-    var z = x + y;
+    let name = "Ethaniel";
+    document.getElementById('myDiv').innerHTML = name;
 }
 
 
