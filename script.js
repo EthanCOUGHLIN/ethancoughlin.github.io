@@ -21,6 +21,4 @@ function myName() {
     var z = x + y;
 }
 
-function myPrice() {
-    
-}
+
