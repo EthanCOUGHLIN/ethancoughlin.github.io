@@ -34,6 +34,26 @@ if (person == null || person == "") {
 }
 }
 
+var red, green, blue;
 
+function myChange(colourValue)
+{
+    let myInput = document.getElementById(colourValue).value;
+
+    if(colourValue == 'red')
+    {
+        red = myInput;
+    }
+    else if(colourValue == 'blue')
+    {
+        blue = myInput;
+    }
+    else if(colourValue == 'green')
+    {
+        green = myInput;
+    }
+
+    document.getElementById('myDiv').style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+}
 
 
