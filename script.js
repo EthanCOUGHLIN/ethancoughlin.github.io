@@ -20,12 +20,8 @@ function myName() {
     document.getElementById('myDiv').innerHTML = name;
 }
 
-function click() {
-    let name = "1994";
-    document.getElementById('myDiv2').innerHTML = name;
-}
-
-alert ("Ayyyyyyyyyyyyyyyyyyyyy")
+function popUp() {
+    alert ("Ayyyyyyyyyyyyyyyyyyyyy")
 
 confirm ("was Super Metroid was released in 1994?")
 
@@ -35,6 +31,7 @@ if (person == null || person == "") {
     text = "User cancelled the prompt";
 } else {
     text = "Ayyyyyyyyyyyyy" + person + "! Did you know that Super Metroid was released in 1994";
+}
 }
 
 
