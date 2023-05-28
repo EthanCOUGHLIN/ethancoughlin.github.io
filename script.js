@@ -53,7 +53,7 @@ function myChange(colourValue)
         green = myInput;
     }
 
-    document.getElementById('myDiv').style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+    document.getElementById('myDiv').style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";``
 }
 
 
