@@ -60,6 +60,12 @@ function myChange(colourValue)
 
     console.log("rgb(" + red + "," + green + "," + blue + ")");
     document.getElementById('myDiv').style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+
+    button.addEventLister("click", myFunction);
+
+    Object.onchange = function(){myScript};
+    Object.addEventLister("change", myScript);
+    
 }
 
 
