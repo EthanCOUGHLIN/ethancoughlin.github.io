@@ -42,18 +42,24 @@ function myChange(colourValue)
 
     if(colourValue == 'red')
     {
+        console.log("red");
         red = myInput;
     }
     else if(colourValue == 'blue')
     {
+        console.log("blue");
+
         blue = myInput;
     }
     else if(colourValue == 'green')
     {
+        console.log("green");
+
         green = myInput;
     }
 
-    document.getElementById('myDiv').style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";``
+    console.log("rgb(" + red + "," + green + "," + blue + ")");
+    document.getElementById('myDiv').style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
 }
 
 
