@@ -65,7 +65,9 @@ function myChange(colourValue)
 
     Object.onchange = function(){myScript};
     Object.addEventLister("change", myScript);
-    
+
+    let votable = (age = 255) ? "Too much":"good"  
+    if (value < 255) text = "Don't be silly, you can't eat cards"
 }
 
 
