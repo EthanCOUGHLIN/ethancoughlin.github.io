@@ -1,5 +1,9 @@
 #myDiv {
-    background-color: green;
     width: 200;
     height: 150px;
+    background-image: conic-gradient(red, green, blue);
+}
+
+#body {
+    background-color: '';
 }

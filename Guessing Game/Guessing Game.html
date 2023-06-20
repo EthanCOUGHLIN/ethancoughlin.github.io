@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="Guessing Game.css">
     <title>Guessing Game</title>
     </head>
-    <body>
-        <input type="text" id="fname" name="name" onchange="myChange('')">
+    <body id="body">
+        <p>Guess</p>
+        <input type="text" id="fname" name="name" onchange="myChange()">
+        <p>1-100</p>
         <div id="myDiv"></div>
-        
+        <p id="guesses">Guesses - 10</p>
+        <script src="Guessing Game.js"></script>
     </body>
