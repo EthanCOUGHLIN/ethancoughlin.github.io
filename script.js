@@ -34,6 +34,7 @@ if (person == null || person == "") {
 }
 }
 
+
 var red, green, blue;
 
 function myChange(colourValue)
@@ -66,8 +67,19 @@ function myChange(colourValue)
     Object.onchange = function(){myScript};
     Object.addEventLister("change", myScript);
 
-    let votable = (age = 255) ? "Too much":"good"  
-    if (value < 255) text = "Don't be silly, you can't eat cards"
+    let votable = (age = 255) ? "Too young":"Old enough";  
+    if (value < 255) text = "too young to buy alcahol"
+
+    age = Number(age);
+    if (isNaN(age)) {
+        votable = "Input is not a number"; 
+    } else {
+        votable = (age < 18) ? "Too young" : "Old enough";
+    }
+
+    let name = null;
+    let text = "missing";
+    let result = name ?? text;
 }
 
 
