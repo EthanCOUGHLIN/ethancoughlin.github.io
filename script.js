@@ -67,8 +67,8 @@ function myChange(colourValue)
     Object.onchange = function(){myScript};
     Object.addEventLister("change", myScript);
 
-    let votable = (age = 255) ? "Too young":"Old enough";  
-    if (value < 255) text = "too young to buy alcahol"
+    let votable = (age = 18) ? "Too young":"Old enough";  
+    if (value < 18) text = "too young to buy alcahol"
 
     age = Number(age);
     if (isNaN(age)) {
